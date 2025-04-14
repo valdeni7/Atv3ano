@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Real Madrid</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class=" p-5">
+
+        <nav class="container d-flex justify-content-between align-items-center">
+            <img src="img/PAPAICRIS.jpg" alt="Real MAdrid" class="nav-img " loading="lazy">
+            <u</title>
+            <link href="l class="nav mt-5">
+                <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+                <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+            </ul>          
+        </nav>
+        <!DOCTYPE html>
+        <html lang="pt-br">
+        <head><div <!DOCTYPE html>
+            <html lang="pt-BR">
+            <head>
+                <meta charset="UTF-8">
+                <title>Menu de Acessibilidade</title>
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+                <style>
+                    .opcoes-acessibilidade {
+                        display: none;
+                        margin-top: 10px;
+                    }
+                    .opcoes-visiveis {
+                        display: flex;
+                        gap: 10px;
+                    }
+                </style>
+            </head>
+            <body>
+            
+                <!DOCTYPE html> 
+                <html lang="pt-BR">
+                <head>
+                    <meta charset="UTF-8">
+                    <title>Menu de Acessibilidade</title>
+                    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+                    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+                    <style>
+                        .opcoes-acessibilidade {
+                            display: none;
+                            margin-top: 10px;
+                        }
+                
+                        .opcoes-visiveis {
+                            display: flex;
+                            gap: 10px;
+                        }
+                
+                        body {
+                            font-size: 16px; /* Tamanho padrão inicial */
+                            transition: font-size 0.3s ease;
+                        }
+                    </style>
+                </head>
+                <body>
+                
+                <div id="acessibilidade" class="menu-acessibilidade p-3">
+                    <button id="botao-acessibilidade" class="btn btn-primary fw-bold" aria-expanded="false">
+                        Acessibilidade
+                    </button>
+                    
+                    <div id="opcoes-acessibilidade" class="opcoes-acessibilidade">
+                        <button id="aumentar-fonte" class="btn btn-primary fw-bold" aria-label="Aumentar o tamanho da fonte">A+</button>
+                        <button id="diminuir-fonte" class="btn btn-primary fw-bold" aria-label="Diminuir o tamanho da fonte">A-</button>
+                        <button id="alterna-contraste" class="btn btn-primary fw-bold" aria-label="Alterna o contraste de cores">
+                            <i class="bi bi-shadows"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="container mt-4">
+                    <p></p>
+                </div>
+                
+                <script>
+                    const botao = document.getElementById("botao-acessibilidade");
+                    const opcoes = document.getElementById("opcoes-acessibilidade");
+                
+                    botao.addEventListener("click", () => {
+                        const estaAberto = opcoes.classList.toggle("opcoes-visiveis");
+                        botao.setAttribute("aria-expanded", estaAberto);
+                    });
+                
+                    const btnAumentar = document.getElementById("aumentar-fonte");
+                    const btnDiminuir = document.getElementById("diminuir-fonte");
+                    let tamanhoFonte = 16; // Tamanho base inicial
+                
+                    btnAumentar.addEventListener("click", () => {
+                        if (tamanhoFonte < 24) {
+                            tamanhoFonte += 2;
+                            document.body.style.fontSize = `${tamanhoFonte}px`;
+                        }
+                    });
+                
+                    btnDiminuir.addEventListener("click", () => {
+                        if (tamanhoFonte > 12) {
+                            tamanhoFonte -= 2;
+                            document.body.style.fontSize = `${tamanhoFonte}px`;
+                        }
+                   
+                    });
+                </script>
+                
+                </body>
+                </html>
+                
+            <script>
+                const botao = document.getElementById("botao-acessibilidade");
+                const opcoes = document.getElementById("opcoes-acessibilidade");
+            
+                botao.addEventListener("click", () => {
+                    const estaAberto = opcoes.classList.toggle("opcoes-visiveis");
+                    botao.setAttribute("aria-expanded", estaAberto);
+                });
+            </script>
+            
+            </body>
+            </html>
+            
+                </div>
+        </div>
+            </div>
+    </div>
+                <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Tamanho das Imagens</title>
+    <style>
+        .image-buttons { 
+ 
+        }
+    </style>
+</head>
+<body>
+    </div>
+    
+    <img src="https://via.placeholder.com/300" alt=>
+    <img src="https://via.placeholder.com/400" alt=>
+
+    <script>
+        function changeImageSize(scaleFactor) {
+            let images = document.querySelectorAll("img");
+            images.forEach(img => {
+                let currentWidth = img.clientWidth;
+                img.style.width = (currentWidth * scaleFactor) + 'px';
+            });
+        }
+    </script>
+</body>
+</html>
+
+            </style>
+        </head>
+        <body>
+            <div class="accessibility-buttons">
+            </div>
+            
+            <p>
+
+            </p>
+        
+            <script>
+                function changeFontSize(scaleFactor) {
+                    let body = document.body;
+                    let currentSize = parseFloat(window.getComputedStyle(body).fontSize);
+                    body.style.fontSize = (currentSize * scaleFactor) + 'px';
+                }
+            </script>
+        </body>
+        </html>
+        
+    </header>
+
+
+    <main class="container my-5">
+
+        <section id="inicio" class="my-5">
+            <div class="inicio-fundo d-flex justify-content-between align-items-center">
+                <div class="esquerda-conteudo">
+                    <h1 class="display-4 text-white fst-italic fw-bold">Boas-vindas ao </h1>
+                    <img src="img/nome real.png" alt="Logotipo secundário do Real " class="mb-2" width="345"
+                        height="200" loading="lazy">
+                    <a href="#tropicalia"
+                        class="btn btn-primary btn-lg botao-inicio fw-semibold">
+                        Conhecer sua história </a>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="Real Madrid" class="my-5 pt-6 secao-real">
+            <div class="container d-flex align-items-center ">
+                  <div class="col-5">
+                    <h2> História Do Real Madrid?</h2>
+                    <p class="p-2">O Real Madrid é um dos clubes de futebol mais renomados e bem-sucedidos do mundo.
+                         Fundado em 1902, em Madrid, na Espanha, o time se destacou por sua história repleta de conquistas nacionais e internacionais, incluindo múltiplas vitórias na Liga dos Campeões da UEFA.
+                          Seu estádio, o Santiago Bernabéu, é um dos maiores e mais icônicos do futebol mundial. Ao longo dos anos, o Real Madrid tem sido casa de grandes jogadores, como Alfredo Di Stéfano, Cristiano Ronaldo e Zinedine Zidane, consolidando sua fama de ser um clube de elite.
+                           A rivalidade com o Barcelona, conhecida como "El Clásico", é uma das mais intensas e aguardadas no futebol global.
+                           O Real Madrid é o clube mais vitorioso da história da Liga dos Campeões da UEFA, com um impressionante total de 15 títulos conquistados. Sua primeira taça foi erguida em 1956, e desde então, a equipe tem sido sinônimo de sucesso na competição. O clube venceu a competição de forma marcante nas décadas de 1950 e 1960, com a presença de lendas como Alfredo Di Stéfano e Francisco Gento. 
+Nos últimos anos, o Real Madrid viveu uma nova era de sucesso, conquistando a Champions League em 2014, 2016, 2017, 2018, 2022 e 2024 sendo especialmente notável sua conquista consecutiva de três títulos entre 2016 e 2018, sob a liderança de Zinedine Zidane. Este domínio recente reafirma a tradição e a excelência do clube, que se mantém como uma potência no cenário europeu, com um elenco sempre preparado para lutar pela taça mais cobiçada do futebol mundial.
+                        .</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria">
+            <h2 class="text-center pt-5">Galeria Títulos</h2>
+            <div class="container p-3 mt-3 fundo-galeria ">
+
+                <div class="row justify-content-md-center">
+                    <div class="col-md-4">
+                        <img src="img/15_copas_de_europa_real_madrid.jpg"
+                            class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/time2025.jpg" alt="Time Atual Real MAdrid" title="Time Atual Real Madrid
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        " class="img-fluid rounded-5"
+                            loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <div class="container p-5 d-flex justify-content-center">
+                <div class="col-md-8 col-lg-10 rounded-5 formulario"> <!-- Caixa do formulário com 60% de largura -->
+                    <h2 class="mb-3">Entre em contato</h2>
+                    <form>
+                        <div class="form-group mb-3">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome" class="form-control rounded-3 mt-1"
+                                placeholder="Digite seu nome completo">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" class="form-control rounded-3 mt-1"
+                                placeholder="Digite seu email">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" class="form-control rounded-4 mt-2" rows="4"
+                                placeholder="Escreva sua mensagem"></textarea>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary btn-lg rounded-pill tamanho-botao">Enviar
+                                mensagem</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="text-center p-3 fst-italic">
+        <p>Acesse nossas redes:</p>
+        <i class="bi bi-whatsapp"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-tiktok"></i>
+        <p class="mt-3">Desenvolvido por Valdeni. Projeto fictício sem fins comerciais.</p>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+
+</html>/p></p>
+        
